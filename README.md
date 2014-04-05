@@ -1,10 +1,18 @@
 # regexg
 
-regexg is a simple regex engine based on a self defined grammer. 
+	regexg is a simple regex engine based on a self defined grammer. 
 
-regexg build the AST of the input regex and implement the McMaughton-Yamada-Thompson alogrithm and the subset construction alogrithm to translate the AST to NFA and NFA to DFA. 
+# How it works
 
-In the source code I demonstrate a simple string accept function that execute on the transition table of the DFA and find out the sentence that meet the regex rule. 
+	regexg build the AST of the input regex and implement the McMaughton-
+	Yamada-Thompson alogrithm and the subset construction alogrithm to 
+	translate the AST to NFA and NFA to DFA. 
+
+# demo
+
+	In the source code I demonstrate a simple string accept function 
+	that execute on the transition table of the DFA and find out the 
+	sentence that meet the regex rule. 
 
 The Supported Grammer
 --------------------------------------------------- 
