@@ -4,8 +4,8 @@ regexg is a simple regex engine based on a self defined grammer.
 
 # How it works
 
-regexg build the AST of the input regex and implement the McMaughton-Yamada-Thompson alogrithm 
-and the subset construction alogrithm to translate the AST to NFA and NFA to DFA. 
+regexg build the AST from input and transform AST to NFA, NFA and DFA by
+McMaughton-Yamada-Thompson alogrithm and Subset Construction alogrithm. 
 
 # Demo
 
